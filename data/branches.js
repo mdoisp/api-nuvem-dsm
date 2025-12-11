@@ -34,8 +34,8 @@ const branches = {
     
     branchesData[index] = {
       ...branchesData[index],
-      ...(branchData.name && { name: branchData.name }),
-      ...(branchData.location && { location: branchData.location }),
+      ...(branchData.name !== undefined && { name: branchData.name }),
+      ...(branchData.location !== undefined && { location: branchData.location }),
       ...(branchData.manager !== undefined && { manager: branchData.manager })
     };
     
