@@ -1,0 +1,16 @@
+{
+  "name": "api-nuvem-dsm",
+  "version": "1.0.0",
+  "description": "Cloud API DSM - Branch Management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["api", "cloud", "branches"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
